@@ -14,63 +14,9 @@ body {
 header {
     width: 100px;
     background-color: var(--headercolor);
-    height: 906px;
+    
     text-align: center;
 }
-
-header:hover{
-    width:206px;
-    
-}
-header:hover + .sidenav{
-    width: 206px;
-}
-.logo{
-    Width: 68px;
-    Height: 34px;
-    margin-top: 52px;
-   
-    
-    
-}
-
-.bottom-border {
-    border-top: 2px solid #C4C4C4;
-    width: 60%;
-    margin-top: 18px;
-    margin-left:20px;
-    margin-right: 10px;
-
-
-
-}
-nav{
-    padding: 15px;
-    position: relative;
-
-}
-.img{
-    width: 25px;
-    height: 25px;
-    
-  
-}
-div > .img:nth-child(0) {
-    width: 40px;
-    height: 25px;
-}
-
-/* nav > div > .img:hover + .sidenav{
-    display:inline-block;
-}
-*/
-nav > div:hover {
-    background: #FFFFFF;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
-
-}
-
 
 .sidenav {
     text-decoration: none;
@@ -79,30 +25,56 @@ nav > div:hover {
     Size: 16px;
     Line-height :19.5px;
     padding: 10px;
-    display: none;
+    display: none;}
+
+
+
+
+.logo{
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 16px;
+    margin-top: 52px;
+    border-bottom: 2px solid var(--acolor);
+    
+    
 
 }
-.sidenav:hover {
-    max-width:inherit;
-    transition-duration: 3s;
+
+
+nav{
+    padding: 15px;
+    position: relative;
 
 }
+.img{
+    width: 25px;
+    height: 25px;  
+  
+}
+div:last-child > .img {
+    width: 40px;
+    height: 25px;
+}
+
+/* nav > div > .img:hover + .sidenav{
+    display:inline-block;
+}
+*/
 
 li div {
     display: block;
     width: 100px;
-   
-    
+     
   }
-div{
+  div{
     padding: 15px;
-    text-align: center;
+    
 }
 
 footer {
     width: 100%; 
     color: var(--footercolor);
-  
     
 }
 p{
@@ -110,4 +82,19 @@ p{
     width: 50%;
     border-top: solid 1px var(--footercolor);
    text-align: center;
+}
+nav > div:hover {
+    background: #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+header:hover{
+    width:206px;
+    
+}
+header:hover .sidenav{
+    display: inline;
+    text-align: right;
+    transition: all 5s ease;
 }
