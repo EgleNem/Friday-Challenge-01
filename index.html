@@ -4,40 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Friday Challenge</title>
     <link rel="stylesheet" href="./style/layout.css" />
     <link rel="stylesheet" href="./style/global.css" />
   </head>
+
   <body>
     <header>
-      <img class="logo" src="./assets/BIT.png" alt="Logo" />
-      <nav>
+      <nav class="nav">
+        <img class="logo" src="./assets/BIT.png" alt="Logo" />
+        <hr />
         <div>
-          <img class="img" src="./assets/Home.png" alt="Home" />
-          <a href="#" class="sidenav">Home</a>
+          <img class="icon" src="./assets/Home.png" alt="Home" />
+          <a href="#" class="nav-text">Home</a>
         </div>
         <div>
-          <img
-            class="img"
-            src="./assets/Calendar.png"
-            alt="Calendar"
-            class="myDiv"
-          />
-          <a href="#" class="sidenav">Calendar</a>
+          <img class="icon" src="./assets/Calendar.png" alt="Calendar" />
+          <a href="#" class="nav-text">Calendar</a>
         </div>
         <div>
-          <img class="img" src="./assets/Box.png" alt="FE" />
-          <a href="#" class="sidenav">FE</a>
+          <img class="icon" src="./assets/Box.png" alt="FE" />
+          <a href="#" class="nav-text">FE</a>
         </div>
         <div>
-          <img class="img" src="./assets/Games.png" alt="Games" />
-          <a href="#" class="sidenav">Games</a>
+          <img class="icon" src="./assets/Games.png" alt="Games" />
+          <a href="#" class="nav-text">Games</a>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="container1">
+        <div class="hello">
+          Good morning, <br />
+          Egle
+        </div>
+        <div class="time">
+          <h2>10:23</h2>
+          <p>Pirmadienis, Sausio 3, 2021</p>
+        </div>
+      </div>
+      <div class="container2">
+        <img
+          class="work-img"
+          src="./assets/workplace-results-professional-report-accounting-during 1.svg"
+          alt="workplace"
+        />
+      </div>
+      <div class="container3">
+        <div class="bottom-text">
+          “First, solve the problem. Then, write the code.” - John Johnson
+        </div>
+      </div>
+    </main>
     <footer>
-      <p>© Baltic Institute of Technology</p>
+      <p class="footer-text">© Baltic Institute of Technology</p>
     </footer>
   </body>
 </html>
