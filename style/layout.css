@@ -261,12 +261,15 @@ nav:hover {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position:relative;
     
 }
-.tasks div{
+.columnai{
     background-color: white ;
     border-radius: 15px;
     padding: 25px 10px 25px 42px;
+    position:relative;
+   
 
 }
 .tasks h1{
@@ -332,3 +335,21 @@ nav:hover {
     float:right;
     margin-right: 10px;
 }}
+
+.dots{
+    position: absolute;
+    right: 26px;
+    top:26px;
+    padding: 0;
+    margin: 0;
+}
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    
+  }
+
+  
