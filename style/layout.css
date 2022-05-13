@@ -217,3 +217,118 @@ nav:hover {
     
     }
 }
+
+.CalPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    width: 80%;
+    margin: 20px 50px 0 120px;
+    overflow: hidden;
+
+}
+@media (max-width: 991px) {
+    .CalPage {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px;
+        width: 80%;
+        
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .CalPage {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px;
+        width: 80%;
+        
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .CalPage {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+        width: 70%;
+        
+    }
+    
+  }
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.tasks div{
+    background-color: white ;
+    border-radius: 15px;
+    padding: 25px 10px 25px 42px;
+
+}
+.tasks h1{
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 0px 0px 5px 0px;
+
+}
+
+.tasks p{
+    color: #C4C4C4;
+    padding: 0px 0px 15px 0px;
+}
+.Line{
+    background-color : red;
+    height: 10px;
+    border-radius: 10px;
+    width:200px;
+    text-align: left;
+    margin:0;
+    max-width: 100px;
+}
+.color1{
+
+}
+.color2{
+    background-color : yellow;
+}
+.color3{
+    background-color : greenyellow;
+}
+
+.newCalendar{
+    background-color: white ;
+    border-radius: 15px;
+    padding: 20px ;
+
+}
+
+
+
+@media (max-width: 575px) {
+    .newCalendar{
+    grid-row-start: 1;
+}}
+
+.plius {
+    background-color: var( --footercolor) ;
+    border-radius: 50%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.plius span{
+    font-size: 30px;
+    
+}
+.plius:hover{
+    cursor: pointer;
+}
+@media (max-width: 575px) {
+    .plius{
+    float:right;
+    margin-right: 10px;
+}}
